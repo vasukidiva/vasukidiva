@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Registration Form Assignment</title>
+
+        <style>
+        .a4-page 
+        {
+            width: 310mm;
+            height: 450mm;
+            margin: 20px auto;
+            padding: 15mm;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+        }
+        body 
+        {
+            text-align: left;
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: right;
+        }
+        h1{
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+
+    <div class="a4-page">
+    <h1> Simple Registration Form Assignment</h1>
+
+    <form action="https://formspree.io/f/mnnzojoo" method="POST">
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date"><br><br>
+
+        <label for="number">Number (0-50):</label>
+        <input type="number" name="number" id="number" min="0" max="50" step="1"><br><br>
+
+        <label for="datetime">Date & Time:</label>
+        <input type="datetime-local" name="datetime" id="datetime"><br><br>
+        <hr>
+        <br>
+
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="">Select your country</option>
+            <option value="India">India</option>
+            <option value="Spain">Spain</option>
+            <option value="Mexico">Mexico</option>
+        </select><br><br>
+        <hr>
+        <br>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" name="color" id="color"><br><br>
+        <hr>
+        <br>
+
+        <label for="first_name">First Name :</label> &nbsp; &nbsp;
+        <input type="text" name="first_name" id="first_name" placeholder="Enter your first name"><br><br>
+
+        <label for="last_name">Last Name :</label> &nbsp;&nbsp;&nbsp;
+        <input type="text" name="last_name" id="last_name" placeholder="Enter your last name"><br><br>
+
+        <label for="email">Email :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+
+        <label for="password">Password :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" name="password" id="password" placeholder="Enter your password"><br><br>
+        <hr>
+        <br>
+
+        <label for="course">Select Course:</label>
+        <select name="course" id="course">
+            <option value=""> Select any course </option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select><br><br>
+        <hr><br>
+
+        <label><b>Select Gender:</b> </label><br><br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label> <br><br>
+        <hr>
+        <br>
+
+        <fieldset>
+            <legend><b>Select Your Interests:</b> </legend>
+            <input type="checkbox" name="interest" id="coding" value="coding">
+            <label for="coding">Coding</label> <br>
+            <input type="checkbox" name="interest" id="design" value="design">
+            <label for="design">Design</label> <br>
+            <input type="checkbox" name="interest" id="Programming" value="Programming">
+            <label for="Programming">Programming</label>
+        </fieldset>
+        <br>
+        
+        <br>
+        <footer>
+
+        <button type="submit" style="font-size: large;"> Submit </button> &nbsp; &nbsp;
+        <input type="reset" value="Reset" style="font-size: large;"></footer>
+
+    </form>
+    <hr>
+    <br>
+
+    <h2>Embedded YouTube Video</h2>
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="1" allowfullscreen>
+        Your pc does not support iframes.
+    </iframe>
+</div>
+</body>
+</html>
